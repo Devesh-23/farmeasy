@@ -372,10 +372,10 @@ packages:
     dependency: "direct main"
     description:
       name: searchfield
-      sha256: "9ff5608deb3d6345938550a81b8e9aaa4735f42ff0bca7ab1b0012eb9b0bcd44"
+      sha256: e0e543ed2c12d753221094e00c06a8e1b0fd883126efe30a2bce961c0ba94c31
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.0"
+    version: "0.8.1"
   sky_engine:
     dependency: transitive
     description: flutter
