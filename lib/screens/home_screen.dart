@@ -28,13 +28,14 @@ class _HomePageState extends State<HomePage> {
                   borderRadius: BorderRadius.circular(8)),
               child: Column(
                 children: [
+
                   Row(
                     children: const [
                       Icon(Icons.location_on),
                       SizedBox(width: 10),
                       Text(
                         "Delhi",
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(fontSize: 20, color: Colors.white,) ,
                       ),
                       SizedBox(width: 200),
                       Icon(Icons.share),
@@ -74,17 +75,6 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-
-            SizedBox(
-                height: 200,
-                width: 200,
-                child: Lottie.asset('assets/sunny.json')),
-            ElevatedButton(
-                onPressed: () {
-                 // DataSources.fetchSchemes("1");
-
-                },
-                child: Icon(Icons.abc))
 
             // Container(
             //   margin: const EdgeInsets.sy
@@ -159,32 +149,7 @@ class _HomePageState extends State<HomePage> {
             //       const SizedBox(
             //         height: 12,
             //       ),
-            //       Row(
-            //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            //         children: [
-            //           const CircleAvatar(
-            //             backgroundImage: NetworkImage('https://thumbs.dreamstime.com/z/colorful-clouds-soft-sunset-sky-file-cleaned-retouched-199572539.jpg'),
-            //             radius: 50,
-            //             //give here the image for machine learning
-            //           ),
-            //           const SizedBox(
-            //             width: 40,
-            //           ),
-            //           Column(
-            //             children:  [
-            //               Text(
-            //                 "Healthy percentage",
-            //                 style:  TextStyle(fontSize: 20),
-            //               ),
-            //               Text(
-            //                 "Defect in plant",
-            //                 style:  TextStyle(fontSize: 20),
-            //               ),
-            //
-            //
-            //
-            //             ],
-            //           )
+
             //
             //
             //         ],
